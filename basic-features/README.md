@@ -20,11 +20,9 @@ die Schritt für Schritt von ES5 zu modernem ES6+ Code umgebaut wird.
 
 1. let / const
 2. Arrow Functions 
-3. Template Literals 
-4. Destructuring
-5. Spread & Rest Operator
-6. Default Parameters
-7. Classes
+3. Destructuring
+4. Spread & Rest Operator
+5. Default Parameters
 
 ---
 
