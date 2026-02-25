@@ -48,23 +48,8 @@ const add = (a, b) => a + b;
 
 console.log(add(2, 3)); 
 
-
 // =============================================================
-// Konzept 3: Template Literals
-// =============================================================
-
-
-// ES5
-var nameOld = "Lorenzo"; 
-console.log("Hello, " + nameOld + "!"); 
-
-// ES6+
-let nameNew = "Lorenzo"; 
-console.log(`Hello, ${nameNew}!`); 
-
-
-// =============================================================
-// Konzept 4: Destructuring
+// Konzept 3: Destructuring
 // =============================================================
 
 
@@ -83,7 +68,7 @@ console.log(name, age);
 
 
 // =============================================================
-// Konzept 5: Spread & Rest Operator 
+// Konzept 4: Spread & Rest Operator 
 // =============================================================
 
 
@@ -124,7 +109,7 @@ console.log(sum(1,2,3,4));
 
 
 // =============================================================
-// Konzept 6: Default Parameters 
+// Konzept 5: Default Parameters 
 // =============================================================
 
 

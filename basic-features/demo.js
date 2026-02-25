@@ -1,6 +1,9 @@
 var todos = [{ id: 1, title: "Lernen", done: true }, { id: 2, title: "Einkaufen", done: false }];
 var onlyDone = false;
 
+
+// Teil I 
+
 function App(initial) { this.todos = initial || []; } 
 
 App.prototype.add = function (title, done) { 
@@ -21,6 +24,9 @@ App.prototype.visible = function (flag) {
 };
 
 var app = new App(todos);
+
+
+// Teil II
 
 function render() { 
   var list = document.getElementById("list");
@@ -45,6 +51,9 @@ function render() {
 
   stats.innerHTML = "Erledigt: " + app.visible(true).length + " / " + app.todos.length; 
 }
+
+
+// Teil III
 
 document.getElementById("add").addEventListener("click", function () { 
   var input = document.getElementById("title");
