@@ -33,7 +33,7 @@ die Schritt für Schritt von ES5 zu modernem ES6+ Code umgebaut wird.
 demo.html       -> Grundstruktur der Seite
 demo.css        -> Styling
 demo.js         -> ES5-Version die refactored wird
-layout.js 	-> Kopie der ES5-Version
+ES5.js 	-> Kopie der ES5-Version
 syntax.js	-> Vorstellung der ES6+ Kernkonzepte  
 
 ````
