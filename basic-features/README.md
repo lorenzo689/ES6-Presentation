@@ -2,7 +2,7 @@
 
 Dieses Repository dient ausschließlich zur Demonstration grundlegender ES6+ Features im Rahmen einer Präsentation.
 
-Das Projekt wurde bewusst sehr klein gehalten und zeigt eine einfache Todo-Liste (mithilfe von Vanilla HTML, CSS, Javascript), 
+Das Projekt wurde bewusst sehr klein gehalten und zeigt eine einfache Todo-Liste (mithilfe von Vanilla HTML, JavaScript), 
 die Schritt für Schritt von ES5 zu modernem ES6+ Code umgebaut wird.
 
 ---
@@ -31,12 +31,12 @@ die Schritt für Schritt von ES5 zu modernem ES6+ Code umgebaut wird.
 ```
 
 demo.html       -> Grundstruktur der Seite
-demo.css        -> Styling
-demo.js         -> ES5-Version die refactored wird
-ES5.js 	-> Kopie der ES5-Version
-syntax.js	-> Vorstellung der ES6+ Kernkonzepte  
+demo.js         -> JS-Datei die refactored wird
+ES5.js 	       -> Kopie der ES5-Version
+ES6.js          -> ES6+ Version
+syntax.js	    -> Vorstellung der ES6+ Kernkonzepte  
 
-````
+```
 
 ---
 
@@ -46,7 +46,7 @@ syntax.js	-> Vorstellung der ES6+ Kernkonzepte
 
 ```bash
 git clone https://github.com/lorenzo689/ES6-Presentation.git
-````
+```
 
 2. Ordner öffnen
 
@@ -61,11 +61,9 @@ Keine Installation oder zusätzliche Tools erforderlich.
 
 * Zunächst wird `demo.js` im ES5-Stil gezeigt.
 * Anschließend wird der Code Schritt für Schritt modernisiert.
-* Nach jedem Schritt wird die Funktionalität überprüft.
 
 ---
 
 ## Hinweis
 
-Der Code ist bewusst vereinfacht und dient ausschließlich der didaktischen Demonstration!
-Er stellt keinen produktionsreifen Code dar!!
+Der Code ist bewusst vereinfacht und dient ausschließlich der didaktischen Demonstration! Er stellt keinen produktionsreifen Code dar!
