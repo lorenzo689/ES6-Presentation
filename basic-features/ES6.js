@@ -3,7 +3,7 @@
 // 2. Arrow Functions
 // 3. Default Parameters
 // 4. Destructuring
-// 5. Spread Operator
+// 5. Spread- and Rest Operator
 
 let todos = []; 
 
@@ -11,6 +11,10 @@ const addTodo = (title, done = false) => {
   const id = todos.length + 1; 
 
   todos = [...todos, { id, title, done }];
+};
+
+const addTodos = (...titles) => {
+  titles.forEach(title => addTodo(title)); 
 };
 
 const render = () => { 
@@ -34,3 +38,6 @@ document.getElementById("add").addEventListener("click", () => {
   input.value = "";
   render();
 });
+
+addTodos("Einkaufen", "Lernen", "Sport"); 
+render(); 
