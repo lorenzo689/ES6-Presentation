@@ -3,7 +3,7 @@
 // - normale Functions statt Arrow
 // - Default Parameter manuell
 // - kein Destructuring
-// - kein Spread Operator
+// - kein Spread und Rest Operator
 
 var todos = []; 
 
