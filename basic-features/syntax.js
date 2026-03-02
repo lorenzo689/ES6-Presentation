@@ -125,8 +125,7 @@ console.log(greetOld());
 console.log(greetOld("Lorenzo")); 
 
 // ES6+ 
-
-const greet = (name2 = "Gast") => `Hallo ${name2}`;
+const greet = (name2 = "Gast") => "Hallo" + name2;
 
 console.log(greet()); 
 console.log(greet("Lorenzo")); 
